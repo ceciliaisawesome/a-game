@@ -19,7 +19,7 @@ class exercises : AppCompatActivity() {
 
 
         btndone.setOnClickListener {
-            val intent = Intent(this, exercises2::class.java)
+            val intent = Intent(this, Countdown::class.java)
             startActivity(intent)
         }
 

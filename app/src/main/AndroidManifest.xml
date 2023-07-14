@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AGame"
         tools:targetApi="31">
         <activity
+            android:name=".Countdown2"
+            android:exported="false" />
+        <activity
+            android:name=".Countdown"
+            android:exported="false" />
+        <activity
             android:name=".timer"
             android:exported="false" />
         <activity
